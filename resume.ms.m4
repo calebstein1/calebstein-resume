@@ -58,7 +58,7 @@ T}
 _start_section(Portfolio)
 _entry(2024, CCC, `C, 6502 ASM, SDL', `I designed a virtual 6502 CPU and system in C, supporting display output via SDL.')
 _entry(2024, Splitjoiner, `C#, Avalonia, FFmpeg', `I created an application to easily combine split video files for the YouTube page run by my church. We serve over 100 current parishioners and have a total channel view count over 7,000, and this has streamlined our process for getting our videos out in a timely manner.')
-_entry(2023-2024, Stardew Valley Mods, `C#, CLR IL', `I developed several mods for the popular game, Stardew Valley, using C# and patching IL code directly. These mods totalled over 700 downloads.')
+_entry(2023-2024, Stardew Valley Mods, `C#, CLR IL', `I developed several mods for the popular game, Stardew Valley, using C# and patching IL code directly. These mods totaled over 700 downloads.')
 _entry(2023, IPAK-EDU On-Demand Streaming, `Ruby on Rails, PostgreSQL, AWS, Bootstrap, Heroku', `I built an on-demand video streaming service to host course material using Ruby on Rails with PostgreSQL, AWS to store image content, and Heroku for deployment.')
 _entry(2023, Steinworks Computers, `Linux, SPI, Stripe', `I flashed coreboot onto refurbished Lenovo Thinkpad X230 laptops using a Raspberry Pi and an SPI clip, then resold them using a custom-built Stripe flow to handle payments.')
 _end_section
