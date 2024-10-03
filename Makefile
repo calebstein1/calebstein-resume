@@ -2,7 +2,7 @@ TARGET = resume.pdf
 SRC = $(wildcard *.ms.m4)
 OBJ = $(patsubst %.ms.m4, %.ms, $(SRC))
 M4 = m4
-ROFF = groff
+ROFF = pdfroff
 
 all: clean $(TARGET)
 
@@ -11,7 +11,7 @@ clean:
 	rm -f *.pdf
 
 $(TARGET): $(OBJ)
-	$(ROFF) -ms -t -Tpdf $? > $@
+	$(ROFF) -ms -t $? > $@
 
 %.ms: %.ms.m4
 	$(M4) $< > $@
